@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-06-25 08:34:28 UTC
+Last updated: 2026-06-25 08:41:29 UTC
 
 ## What exists now
 - Local project directory created
@@ -12,6 +12,8 @@ Last updated: 2026-06-25 08:34:28 UTC
 - GitHub repository created: `https://github.com/Vvarden/baby-milestone-tracker`
 - Git remote `origin` connected to the GitHub repository
 - Local initial commit created: `7710cc5 chore: initialize project planning docs`
+- Local follow-up commit created: `69cfb07 docs: record GitHub PAT push blocker`
+- `main` has now been pushed successfully to GitHub and tracks `origin/main`
 
 ## Decisions made
 - We want a baby developmental milestone tracking app
@@ -31,7 +33,6 @@ Last updated: 2026-06-25 08:34:28 UTC
 - Flutter/Dart are not installed on this tower
 - Node.js and npm are installed and usable
 - iOS local builds/signing still need cloud tooling or Mac access later
-- The current GitHub PAT can create the repo via API, but it cannot push git contents or use the Contents API; it appears to be missing the required `contents: write` permission
 
 ## Open questions
 - App name / package name / bundle identifier
