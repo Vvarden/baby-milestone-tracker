@@ -1,6 +1,6 @@
-# Baby Milestone Tracker
+# SproutBook
 
-A cross-platform baby developmental milestone tracking app.
+Working product name for the baby milestone tracking app.
 
 ## Current direction
 - Primary target: Android + iOS
@@ -23,6 +23,7 @@ Why:
 - Keep deeper planning notes in `docs/`
 
 ## Current product decisions
+- Working app name: `SproutBook`
 - Multiple caregivers are supported from the start via email invite
 - The app is memory-first rather than clinical/medical-first
 - Each achievement record should support date/time, notes, and an optional photo

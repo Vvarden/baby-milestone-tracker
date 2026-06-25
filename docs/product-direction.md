@@ -7,6 +7,11 @@ This is not primarily a medical, therapy, or formal developmental-assessment too
 
 ## Confirmed product decisions
 
+### Naming
+- Working app name: `SproutBook`
+- This is the preferred working name unless a stronger option turns up later
+
+
 ### Users and collaboration
 - The account starts with one primary parent/caregiver.
 - That primary account holder can invite additional caregivers by email.
