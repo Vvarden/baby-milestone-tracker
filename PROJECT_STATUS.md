@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-06-25 08:41:29 UTC
+Last updated: 2026-06-25 08:58:46 UTC
 
 ## What exists now
 - Local project directory created
@@ -14,6 +14,7 @@ Last updated: 2026-06-25 08:41:29 UTC
 - Local initial commit created: `7710cc5 chore: initialize project planning docs`
 - Local follow-up commit created: `69cfb07 docs: record GitHub PAT push blocker`
 - `main` has now been pushed successfully to GitHub and tracks `origin/main`
+- Product direction and technical recommendation docs created under `docs/`
 
 ## Decisions made
 - We want a baby developmental milestone tracking app
@@ -21,6 +22,13 @@ Last updated: 2026-06-25 08:41:29 UTC
 - Web access is a nice-to-have
 - No Mac is currently available for local iOS development
 - Current best-fit recommendation: React Native + Expo + TypeScript
+- The product is mobile-first for MVP
+- The product supports multiple caregivers from the start via email invitation
+- The product is memory-first rather than clinical/medical-first
+- Each achievement record should support date/time, optional notes, and an optional photo
+- Data should sync to an online account but remain usable offline with local caching and queued sync
+- Offline conflicts between devices should be surfaced and resolved rather than silently overwritten
+- A personalised printed memory-book workflow is a later-phase desirable feature
 
 ## Why this stack is the current favourite
 - Shared codebase across Android and iOS
@@ -36,12 +44,12 @@ Last updated: 2026-06-25 08:41:29 UTC
 
 ## Open questions
 - App name / package name / bundle identifier
-- Single-user family app or multi-caregiver collaboration from the start?
-- Offline-first requirement?
-- Account system needed for MVP?
-- Notifications/reminders needed in MVP?
-- Photo upload / attachment support needed?
-- NHS/CDC/WHO milestone source preference?
+- Brand/tone direction
+- Whether entries should support multiple photos in MVP or later
+- Whether caregivers can edit each other's entries freely or only comment/suggest changes
+- Whether conflict resolution should be manual-only or use sensible defaults for simple cases
+- Whether invitees must create full accounts before viewing anything
+- When memory-book generation/printing should enter the roadmap
 
 ## Resume workflow
 When returning to this project:

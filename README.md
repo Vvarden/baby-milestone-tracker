@@ -22,8 +22,21 @@ Why:
 - Keep decisions in `PROJECT_STATUS.md`
 - Keep deeper planning notes in `docs/`
 
+## Current product decisions
+- Multiple caregivers are supported from the start via email invite
+- The app is memory-first rather than clinical/medical-first
+- Each achievement record should support date/time, notes, and an optional photo
+- Mobile-first MVP
+- Sync to an online account, but offline capture must keep working
+- Conflicts from offline changes on multiple devices should be surfaced and resolved rather than silently overwritten
+
+## Planning docs
+- Product direction: `docs/product-direction.md`
+- Technical recommendation: `docs/technical-recommendation.md`
+
 ## Next planning topics
-1. Define user roles and core user journeys
-2. Decide data model for children, milestones, observations, and reminders
-3. Decide auth/offline/sync requirements
-4. Decide MVP vs later features
+1. Choose app name, bundle identifiers, and tone/branding
+2. Decide the exact MVP entry schema and permissions model
+3. Decide the invite/auth flow details
+4. Decide conflict-resolution UX and photo limits for MVP
+5. Decide when to tackle memory-book export/print as a later phase
