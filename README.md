@@ -27,6 +27,8 @@ Why:
 - Recommended iOS bundle ID: `com.vvarden.sproutbook`
 - Recommended Android application ID: `com.vvarden.sproutbook`
 - Multiple caregivers are supported from the start via email invite
+- Support both password signup and magic-link access
+- Magic-link invite acceptance should be the smoothest/default collaboration path
 - The app is memory-first rather than clinical/medical-first
 - Each achievement record should support date/time, notes, and an optional photo
 - Mobile-first MVP
@@ -39,8 +41,8 @@ Why:
 - MVP specification: `docs/mvp-spec.md`
 
 ## Next planning topics
-1. Choose app name, bundle identifiers, and tone/branding
+1. Decide tone/branding direction
 2. Decide the exact MVP entry schema and permissions model
-3. Decide the invite/auth flow details
-4. Decide conflict-resolution UX and photo limits for MVP
+3. Decide conflict-resolution UX and photo limits for MVP
+4. Decide local persistence approach for offline-first scaffolding
 5. Decide when to tackle memory-book export/print as a later phase

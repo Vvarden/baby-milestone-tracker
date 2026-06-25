@@ -206,8 +206,9 @@ A signed-in primary caregiver has an active family and at least one child profil
 2. Enters invitee email
 3. App creates invitation record and sends invite email
 4. Invitee opens invite link
-5. Invitee signs in or creates account
-6. Invitee joins the existing family
+5. Invitee is taken through the smoothest path first: magic-link acceptance into the family
+6. If needed, the user can still choose password signup/sign-in instead
+7. Invitee joins the existing family
 
 Success condition:
 The invited caregiver becomes an active family member and can see the child timeline.
@@ -378,8 +379,12 @@ The MVP is successful if:
 
 These should be treated as the default identifiers for scaffolding unless the publishing org or brand changes later.
 
+## Auth and invite recommendation
+- Support both password signup and magic-link access
+- Make magic-link invite acceptance the smoothest/default path for invited caregivers
+- Keep the fallback password path available for users who leave the invite flow, change device, or prefer a traditional login
+
 ## Open implementation questions
-- Should invites use magic links only, or allow password signup too?
 - Should caregivers be allowed to edit all entries, or only their own, in the very first release?
 - Should conflict resolution allow free-text manual merge in MVP, or only pick-a-version?
 - What local persistence library should be chosen in the app scaffold?

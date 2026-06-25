@@ -24,6 +24,8 @@ Why this is the current recommendation:
 - The account starts with one primary parent/caregiver.
 - That primary account holder can invite additional caregivers by email.
 - Multiple caregivers can collaborate on the same child timeline.
+- The product should support both password signup and magic-link access.
+- Invite acceptance via magic link should be the smoothest/default path for joining a family.
 
 ### Core record model
 When a caregiver notices a new skill, milestone, or achievement, they should be able to create a record with:
@@ -89,9 +91,7 @@ This feature should influence the data model now:
 - notes should support longer-form text than a tiny caption-only field
 
 ## Open questions still to answer
-- App name
 - Brand/tone direction
 - Whether entries should support multiple photos in MVP or later
 - Whether caregivers can edit each other's entries freely or only comment/suggest changes
 - Whether conflict resolution is manual-only or includes sensible defaults for simple cases
-- Whether invitees must create full accounts before viewing anything

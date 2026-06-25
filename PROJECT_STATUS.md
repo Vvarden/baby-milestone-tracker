@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-06-25 13:10:33 UTC
+Last updated: 2026-06-25 13:16:54 UTC
 
 ## What exists now
 - Local project directory created
@@ -17,6 +17,7 @@ Last updated: 2026-06-25 13:10:33 UTC
 - Product direction, technical recommendation, and MVP spec docs created under `docs/`
 - Working app name set to `SproutBook`
 - Recommended package/bundle identifiers recorded for scaffolding
+- Auth and invite recommendation recorded for MVP
 
 ## Decisions made
 - We want a baby developmental milestone tracking app
@@ -28,6 +29,8 @@ Last updated: 2026-06-25 13:10:33 UTC
 - Current best-fit recommendation: React Native + Expo + TypeScript
 - The product is mobile-first for MVP
 - The product supports multiple caregivers from the start via email invitation
+- The product should support both password signup and magic-link access
+- Magic-link invite acceptance should be the smoothest/default path for invited caregivers
 - The product is memory-first rather than clinical/medical-first
 - Each achievement record should support date/time, optional notes, and an optional photo
 - Data should sync to an online account but remain usable offline with local caching and queued sync
@@ -48,7 +51,6 @@ Last updated: 2026-06-25 13:10:33 UTC
 
 ## Open questions
 - Brand/tone direction
-- Whether invites should use magic links only, password signup, or both
 - Whether caregivers can edit all entries in v1 or only their own
 - Whether conflict resolution in MVP should allow manual field merge or only version-pick
 - Which local persistence library should be chosen in the app scaffold
