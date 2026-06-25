@@ -33,6 +33,7 @@ Why:
 ## Planning docs
 - Product direction: `docs/product-direction.md`
 - Technical recommendation: `docs/technical-recommendation.md`
+- MVP specification: `docs/mvp-spec.md`
 
 ## Next planning topics
 1. Choose app name, bundle identifiers, and tone/branding

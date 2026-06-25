@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-06-25 08:58:46 UTC
+Last updated: 2026-06-25 09:16:42 UTC
 
 ## What exists now
 - Local project directory created
@@ -14,7 +14,7 @@ Last updated: 2026-06-25 08:58:46 UTC
 - Local initial commit created: `7710cc5 chore: initialize project planning docs`
 - Local follow-up commit created: `69cfb07 docs: record GitHub PAT push blocker`
 - `main` has now been pushed successfully to GitHub and tracks `origin/main`
-- Product direction and technical recommendation docs created under `docs/`
+- Product direction, technical recommendation, and MVP spec docs created under `docs/`
 
 ## Decisions made
 - We want a baby developmental milestone tracking app
@@ -45,10 +45,11 @@ Last updated: 2026-06-25 08:58:46 UTC
 ## Open questions
 - App name / package name / bundle identifier
 - Brand/tone direction
-- Whether entries should support multiple photos in MVP or later
-- Whether caregivers can edit each other's entries freely or only comment/suggest changes
-- Whether conflict resolution should be manual-only or use sensible defaults for simple cases
-- Whether invitees must create full accounts before viewing anything
+- Whether invites should use magic links only, password signup, or both
+- Whether caregivers can edit all entries in v1 or only their own
+- Whether conflict resolution in MVP should allow manual field merge or only version-pick
+- Which local persistence library should be chosen in the app scaffold
+- Whether visible audit history belongs in MVP or phase 2
 - When memory-book generation/printing should enter the roadmap
 
 ## Resume workflow
