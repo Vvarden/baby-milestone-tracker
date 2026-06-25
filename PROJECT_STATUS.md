@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-06-25 13:04:28 UTC
+Last updated: 2026-06-25 13:10:33 UTC
 
 ## What exists now
 - Local project directory created
@@ -16,10 +16,12 @@ Last updated: 2026-06-25 13:04:28 UTC
 - `main` has now been pushed successfully to GitHub and tracks `origin/main`
 - Product direction, technical recommendation, and MVP spec docs created under `docs/`
 - Working app name set to `SproutBook`
+- Recommended package/bundle identifiers recorded for scaffolding
 
 ## Decisions made
 - We want a baby developmental milestone tracking app
 - Working app name: `SproutBook`
+- Recommended package/bundle identifier: `com.vvarden.sproutbook`
 - Android and iOS support are preferred
 - Web access is a nice-to-have
 - No Mac is currently available for local iOS development
@@ -45,7 +47,6 @@ Last updated: 2026-06-25 13:04:28 UTC
 - iOS local builds/signing still need cloud tooling or Mac access later
 
 ## Open questions
-- Package name / bundle identifier
 - Brand/tone direction
 - Whether invites should use magic links only, password signup, or both
 - Whether caregivers can edit all entries in v1 or only their own

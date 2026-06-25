@@ -24,6 +24,8 @@ Why:
 
 ## Current product decisions
 - Working app name: `SproutBook`
+- Recommended iOS bundle ID: `com.vvarden.sproutbook`
+- Recommended Android application ID: `com.vvarden.sproutbook`
 - Multiple caregivers are supported from the start via email invite
 - The app is memory-first rather than clinical/medical-first
 - Each achievement record should support date/time, notes, and an optional photo

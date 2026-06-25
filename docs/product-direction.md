@@ -10,6 +10,14 @@ This is not primarily a medical, therapy, or formal developmental-assessment too
 ### Naming
 - Working app name: `SproutBook`
 - This is the preferred working name unless a stronger option turns up later
+- Recommended iOS bundle ID: `com.vvarden.sproutbook`
+- Recommended Android application ID: `com.vvarden.sproutbook`
+
+Why this is the current recommendation:
+- it matches the existing GitHub owner/org naming cleanly
+- it is lowercase and platform-safe
+- it is specific enough to avoid generic naming problems
+- using the same reverse-DNS identifier on both platforms keeps the early setup simple
 
 
 ### Users and collaboration

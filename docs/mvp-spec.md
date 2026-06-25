@@ -372,6 +372,12 @@ The MVP is successful if:
 - queued entries sync later without drama
 - true same-entry collisions are surfaced clearly instead of losing data silently
 
+## Package / bundle identifier recommendation
+- iOS bundle ID: `com.vvarden.sproutbook`
+- Android application ID: `com.vvarden.sproutbook`
+
+These should be treated as the default identifiers for scaffolding unless the publishing org or brand changes later.
+
 ## Open implementation questions
 - Should invites use magic links only, or allow password signup too?
 - Should caregivers be allowed to edit all entries, or only their own, in the very first release?
